@@ -1,12 +1,3 @@
-/* Sections */
-.container {
-  margin: 3rem auto;
-  max-width: 75rem;
-  padding: 3rem 1.5rem;
-  position: relative;
-}
-
-/* Section Header Content */
 .header-container {
   background-color: #DDDDDD;
   text-align: center;
@@ -33,4 +24,8 @@
 .image-item img {
   max-width: 21.1875rem;
   height: auto;
+}
+
+.search {
+  margin: 10%;
 }
