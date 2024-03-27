@@ -9,7 +9,6 @@
   flex-wrap: wrap;
   justify-content: center;
   margin: 3rem auto;
-  max-width: 75rem;
   padding: 3rem 1.5rem;
   position: relative;
 }
@@ -24,6 +23,7 @@
 .image-item img {
   max-width: 21.1875rem;
   height: auto;
+  object-fit: contain;
 }
 
 .search {
