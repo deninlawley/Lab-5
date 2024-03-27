@@ -4,7 +4,7 @@ document.getElementById('search-form').addEventListener('submit', function(event
   searchNASAImages(searchQuery);
 });
 
-function searchNASAImages(keyword, limit = 12) {
+function searchNASAImages(keyword, limit = 24) {
   const API_KEY = 'BdSXptyeUVgoqae6BK8sqZagbK6fQqNmFKUX5Q6V';
   const API_URL = `https://images-api.nasa.gov/search?title=${keyword}&media_type=image&page=1&page_size=${limit}`;
   
