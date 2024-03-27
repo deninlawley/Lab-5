@@ -7,14 +7,6 @@
 
   @media screen and (min-width: 768px) {
     img {
-      min-height: 10rem;
-      object-fit: contain;
-    }
-  }
-
-  @media screen and (min-width: 1200px) {
-    img {
-      min-height: 12rem;
       object-fit: contain;
     }
   }
